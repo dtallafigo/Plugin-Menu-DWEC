@@ -1,0 +1,28 @@
+EN ESTE DOCUMENTOS SE DEFINENE LOS ELEMENTOS NECESARIOS PARA CONFIGURAR LA APARIENCIA DEL CODIGO
+GENERADO CON EL PLUGIN ANTERIORMENTE CREADO.
+
+PARA ESTO SOLO NECESITAMOS SABER EL NOMBRE DE LOS SIGUIENTES IDs Y CLASES, Y COMO SE COMPORTAN
+CON EL PLUGIN.
+
+        *: Esta etiqueta se usa para pegar todo el menu a la parte de arriba de la pagina.
+
+        .navegador: Lleva la apariencia principal del menu, con la foto los colores, las sombras 
+        y el tamaño del mismo.
+
+        #menu: lleva toda la barra de menus.
+
+        #menu li: controla todos los menus principales.
+
+        #menu li::before: coloca los iconos justo detras del elemento.
+
+        #menu li:hover: esta opcion solo se activa cuando el raton pasa por encima del elemento del
+        menu.
+
+        #menu li div p:hover: solo sera activada cuando el click pase por encima de los nombres de 
+        los submenus.
+
+        #menu li a: controla todos los enlaces de menu principal.
+
+        #menu li div: oculta el menu para que no se vea antes de que el click pase por encima.
+
+        #menu li div p: controla todos los submenus, tipo de letra, color, etc.

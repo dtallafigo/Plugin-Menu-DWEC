@@ -1,0 +1,30 @@
+ESTE PLUGIN CREA UN DIV QUE CONTIENE UN UL CON UNA SERIE DE ELEMENTOS QUE PODEMOS CONSIDERAR
+BARRA DE NAVEGACION, EL PLUGIN ESTA PREPARADO PARA QUE EL DIV QUE CONTENGA NUESTRO MENU SE LLAME
+.navegador, PERO TODO SE PUEDE HACER COLGANDO DE LOS COMPONENTES QUE EL USUARIO DEL MISMO DESE, EL UL
+QUE CONTIENE EL DIV SE LLAMA #menu.
+
+!EL PLUGIN ES CASE SENSITIVE¡
+
+Nuestro plugin se puede llamar sobre cualquier objeto de jquery $("lo que sea").florido();
+en el parentesis de nuestra llamada al plugin deberan aparecer las opciones oportunas para hacer
+nuestro menu:
+
+     $.florido.('crearNavegador'):
+               En esta opcion creamos un navegador sobre el objeto $(this) que decidamos, en esta
+               opcion se cream principalmente el <div class='navegador'></div> y el <ul id='menu'></ul>
+               que este contiene.
+
+     $(.navegador).florido('crearMenu', 'Nombre menu'):
+               Esta opcion seguida del nombre del menu crea un nuevo menu principal en nuestro #menu,
+               esta opcion siempre se debe hacer llamada a la clase navegador.
+
+     $(#NombreMenu).florido('crearSubMenu', 'Nombre Submenu):
+               Con esta creamos el submenu, usando el objeto $(this) le decimos sobre que menu
+               anteriormente creado queremos que cuelgue nuestro submenu.
+
+     $(#idMenuAEliminiar).florido('eliminarMenu'):
+               Y con esta ultima indicando en el objeto $(this) que mennu queremos eliminar y se 
+               eliminara.
+
+Todos los menus y submenus son enlaces para que se pueda colocar en cada uno de ellos el enlace
+que creamos conveniente.

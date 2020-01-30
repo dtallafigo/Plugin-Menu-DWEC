@@ -1,0 +1,60 @@
+* { 
+    padding: 0;
+    margin: auto;
+}
+
+.navegador { 
+    background: url("../fondo.jpg_large") bottom center no-repeat;
+    text-align: center; 
+    border: solid;
+    box-shadow: 0 10px 30px #04b488;
+    padding: 3%;
+}
+
+#menu {
+    margin-top: -20px;
+}
+
+#menu li { 
+    margin: 0em 1em;
+    padding: 0.5em 0.5em 0.5em ;
+    background-color: #04b488;
+    width: 15%;
+    float: left;
+    list-style-type: none;
+    text-align: center; 
+    font-family: 'Roboto Condensed', sans-serif;
+    border: solid;
+    text-shadow: 2px 2px 2px #04523e;
+}
+
+#menu li::before{
+    margin: 5%;
+    content: url("../dato.png");
+}
+
+#menu li:hover { 
+    color: #04b488; 
+    background-color: #7a3e86;
+}
+
+ #menu li div p:hover{
+    background-color: #04b488;
+ }
+
+ #menu li a{
+    text-decoration: none;
+    color: black;
+ }
+
+ #menu li div{ 
+    margin-top: 10%;
+    display: none;
+ }
+
+ #menu li div p{
+     padding: 0.3em 0em 0.3em;
+     margin-bottom: 2%;
+     text-align: center;
+     border: solid;
+ }
