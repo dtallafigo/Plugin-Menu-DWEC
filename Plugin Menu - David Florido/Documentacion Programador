@@ -3,7 +3,7 @@ BARRA DE NAVEGACION, EL PLUGIN ESTA PREPARADO PARA QUE EL DIV QUE CONTENGA NUEST
 .navegador, PERO TODO SE PUEDE HACER COLGANDO DE LOS COMPONENTES QUE EL USUARIO DEL MISMO DESE, EL UL
 QUE CONTIENE EL DIV SE LLAMA #menu.
 
-!EL PLUGIN ES CASE SENSITIVE¡
+¡EL PLUGIN ES CASE SENSITIVE!
 
 Nuestro plugin se puede llamar sobre cualquier objeto de jquery $("lo que sea").florido();
 en el parentesis de nuestra llamada al plugin deberan aparecer las opciones oportunas para hacer
